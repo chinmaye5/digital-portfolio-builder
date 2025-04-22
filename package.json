@@ -1,0 +1,12 @@
+{
+  "name": "digital-portfolio-builder",
+  "version": "1.0.0",
+  "description": "A full-stack web application for building digital portfolios",
+  "scripts": {
+    "start": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+} 
